@@ -15,14 +15,14 @@ console.log("Server restart is up and running!");
 
 function restartDocker() {
   console.log("Restarting Docker...");
-  sdk.auth('rnd_BfFOGga8fMG5E4Qb5yFYTEphl5F5');
-  sdk.createDeploy({clearCache: 'clear'}, {serviceId: 'srv-cgtjt9iut4mcfrm72rsg'})
+  sdk.auth('rnd_EAzao5qM2847zLR1WPd2XoBcrY9Z');
+  sdk.createDeploy({clearCache: 'clear'}, {serviceId: 'srv-cgucvmt269vbmeqdov60'})
   .then(({ data }) => console.log(data))
   .catch(err => console.error(err));
   
   console.log("Restarting Docker...");
-  sdk.auth('rnd_BfFOGga8fMG5E4Qb5yFYTEphl5F5');
-  sdk.createDeploy({clearCache: 'clear'}, {serviceId: 'srv-cgubcr82qv2fdecmp90g'})
+  sdk.auth('rnd_EAzao5qM2847zLR1WPd2XoBcrY9Z');
+  sdk.createDeploy({clearCache: 'clear'}, {serviceId: 'srv-cgud0l02qv2fdect13q0'})
   .then(({ data }) => console.log(data))
   .catch(err => console.error(err));
 }
@@ -38,5 +38,5 @@ function timer() {
   }
 }
 
-// timer();
+timer();
 
