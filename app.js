@@ -38,5 +38,5 @@ function timer() {
   }
 }
 
-timer();
+// timer();
 
